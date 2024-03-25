@@ -1,0 +1,20 @@
+{
+  "name": "test-strategy",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "reset": "rm -rf node_modules && rm package-lock.json && npm install",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.21.2",
+    "astro": "^4.3.5",
+    "sharp": "^0.32.5",
+    "@astrojs/check": "^0.5.9",
+    "typescript": "^5.4.3"
+  }
+}
