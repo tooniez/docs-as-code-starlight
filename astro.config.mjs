@@ -3,8 +3,9 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+
   site: 'https://tooniez.github.io',
-  base: 'docs-as-code-starlight',
+  base: '/docs-as-code-starlight',
 	integrations: [
 		starlight({
 			title: 'My Docs',
